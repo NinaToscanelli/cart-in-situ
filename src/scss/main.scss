@@ -83,6 +83,12 @@ h1 {
 }
 
 .date {
+  color: #000;
+  font-family: "Bebas Neue";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   display: flex;
   width: 158px;
   height: 71px;
@@ -93,15 +99,15 @@ h1 {
   border-radius: 15px;
   border: 1px solid #fff;
   background: var(--pink, #faf);
+}
+
+.time {
   color: #000;
   font-family: "Bebas Neue";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.time {
   display: flex;
   padding: 16px 38px;
   justify-content: center;
@@ -110,10 +116,10 @@ h1 {
   border-radius: 15px;
   border: 1px solid #fff;
   background: var(--yellow, #fae04b);
-  color: #000;
-  font-family: "Bebas Neue";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+}
+
+.bottom {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
 }
