@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+.cart {
+  display: flex;
+  width: 889px;
+  height: 606px;
+  padding: 44px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 3px solid #fff;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(78.44999694824219px);
+}
+
+.title {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Helvetica Neue";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button {
+  display: flex;
+  width: 281px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.section {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: -2px;
+  align-self: stretch;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background: #000;
+  color: #fff;
+  font-family: "Helvetica Neue";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.infos {
+  color: #fff;
+  font-family: "Helvetica Neue";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.date {
+  display: flex;
+  width: 158px;
+  height: 71px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background: var(--pink, #faf);
+  color: #000;
+  font-family: "Bebas Neue";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.time {
+  display: flex;
+  padding: 16px 38px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background: var(--yellow, #fae04b);
+  color: #000;
+  font-family: "Bebas Neue";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
